@@ -1,0 +1,12 @@
+{
+    "name": "phaser-state",
+    "title": "Phaser State",
+    "description": "Create a Phaser State from Brackets Editor",
+    "homepage": "http://www.tvo.org",
+    "version": "0.0.1",
+    "author": "Derek Turney <dturney@tvo.org>",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.31.0"
+    }
+}

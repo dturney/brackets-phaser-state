@@ -1,0 +1,16 @@
+<div id="templates_modal" class="template modal">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+        <h1 class="dialog-title">Create A Phaser State</h1>
+		<h3>State Name: <input type="text" class="text-input" name="{{statename}}" value="{{statename}}"/></h3>
+    </div>
+    <p style="display: none; color: red; font-weight: bold; padding: 10px;" id="templates_error">There is no file open. Please open a file before running HTML-Templates.</p>
+    <div class="modal-body">
+       <p style="display: none; color: white; font-weight: bold; padding: 10px;" id="templates_good">Good to go!  Create your Phaser State.</p>
+        <p style="display: none; color: red; font-weight: bold;" id="templates_warning">File has content, this action will overwrite that content.</p>      
+    </div>
+    <div class="modal-footer">
+               <a id="templates_modalOKBtn" href="#" class="dialog-button btn btn-danger" data-dismiss="modal">OK</a>
+        <a id="templates_modalCancelBtn" href="#" class="dialog-button btn btn-danger" data-dismiss="modal">Cancel</a>
+    </div>
+</div>
